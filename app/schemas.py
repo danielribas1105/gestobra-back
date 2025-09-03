@@ -1,6 +1,8 @@
+import uuid
 from pydantic import BaseModel
 
 class UserBase(BaseModel):
+    id: uuid.UUID
     name: str
     email: str
     cpf: str

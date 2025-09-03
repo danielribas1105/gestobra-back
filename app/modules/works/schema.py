@@ -1,6 +1,8 @@
+import uuid
 from pydantic import BaseModel
 
 class WorkBase(BaseModel):
+   id: uuid.UUID
    name: str
    description: str
    address: str

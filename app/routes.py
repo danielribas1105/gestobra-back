@@ -2,8 +2,11 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from . import crud, schemas
 from .database import SessionLocal
+import modules.works.route as work
 
 router = APIRouter()
+
+router.include_router(work.router, tags=["work"])
 
 def get_db():
     db = SessionLocal()
