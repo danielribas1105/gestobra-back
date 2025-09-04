@@ -1,16 +1,12 @@
 from fastapi import FastAPI
-from . import models, database, routes
+""" from app import models, database """
+from .routes import router
 
-models.SQLModel.metadata.create_all(bind=database.engine)
-
+""" models.SQLModel.metadata.create_all(bind=database.engine) """
 
 app = FastAPI()
-app.include_router(routes.router)
+app.include_router(router)
 
 @app.get("/")
 def home():
-    return {"project": "GestObra"}
-
-@app.get("/soma")
-def soma(a: int, b: int):
-    return {"resultado": a + b}
+   return {"project": "GestObra"}

@@ -1,10 +1,10 @@
-from fastapi import APIRouter, Depends
-from sqlalchemy.orm import Session
-from . import crud, schemas
-from .database import SessionLocal
-import modules.works.route as work
+from fastapi import APIRouter
+from .modules.works import route as work  # import relativo
 
 router = APIRouter()
+router.include_router(work.router)
+
+""" router = APIRouter()
 
 router.include_router(work.router, tags=["work"])
 
@@ -22,3 +22,4 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
 @router.get("/users", response_model=list[schemas.UserOut])
 def list_users(db: Session = Depends(get_db)):
     return crud.list_users(db)
+ """

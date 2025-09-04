@@ -1,13 +1,12 @@
 from sqlalchemy.orm import Session
-from . import models, schemas
-from modules.works.model import Work
+from . import model, schema
 
-async def create_work(db: Session, work: schemas.UserCreate) -> Work:
-   newWork = Work(**work.dict())
-   db.add(newWork)
-   await db.commit()
-   await db.refresh(newWork)
-   return newWork
+def create_work(db: Session, work: schema.WorkCreate) -> model.Work:
+   new_work = model.Work(**work.dict())
+   db.add(new_work)
+   db.commit()
+   db.refresh(new_work)
+   return new_work
 
 def list_works(db: Session):
-   return db.query(models.User).all()
+   return db.query(model.Work).all()

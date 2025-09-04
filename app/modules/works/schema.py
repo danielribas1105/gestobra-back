@@ -2,22 +2,23 @@ import uuid
 from pydantic import BaseModel
 
 class WorkBase(BaseModel):
-   id: uuid.UUID
-   name: str
-   description: str
-   address: str
-   region: str
-   city: str
-   state: str
-   budget: str
-   active: bool
-   image_url: str
+    name: str
+    description: str | None = None
+    address: str | None = None
+    region: str | None = None
+    city: str | None = None
+    state: str | None = None
+    budget: str | None = None
+    status: str | None = "ativa"
+    image_url: str | None = None
+
 
 class WorkCreate(WorkBase):
-   pass
+    pass
+
 
 class WorkOut(WorkBase):
-   id: str
+    id: uuid.UUID
 
-   class Config:
-      orm_mode = True
+    class Config:
+        from_attributes = True  # ✅ Pydantic v2
