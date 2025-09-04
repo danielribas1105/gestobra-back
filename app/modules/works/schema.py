@@ -1,6 +1,7 @@
 import uuid
 from pydantic import BaseModel
 
+
 class WorkBase(BaseModel):
     name: str
     description: str | None = None
@@ -21,4 +22,4 @@ class WorkOut(WorkBase):
     id: uuid.UUID
 
     class Config:
-        from_attributes = True  # ✅ Pydantic v2
+        from_attributes = True

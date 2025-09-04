@@ -81,6 +81,22 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -94,6 +110,22 @@
         "description": "fastapi",
         "isExtraImport": true,
         "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
@@ -145,6 +177,22 @@
         "documentation": {}
     },
     {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -170,6 +218,78 @@
         "documentation": {}
     },
     {
+        "label": "create",
+        "kind": 2,
+        "importPath": "app.modules.users.route",
+        "description": "app.modules.users.route",
+        "peekOfCode": "def create(work: UserCreate, db: Session=Depends(get_db)):\n    return create_user(db, work)\n@router.get(\"/\", response_model=list[UserOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_users(db)",
+        "detail": "app.modules.users.route",
+        "documentation": {}
+    },
+    {
+        "label": "list_all",
+        "kind": 2,
+        "importPath": "app.modules.users.route",
+        "description": "app.modules.users.route",
+        "peekOfCode": "def list_all(db: Session=Depends(get_db)):\n    return list_users(db)",
+        "detail": "app.modules.users.route",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.modules.users.route",
+        "description": "app.modules.users.route",
+        "peekOfCode": "router = APIRouter(prefix=\"/user\", tags=[\"users\"])\n@router.post(\"/\", response_model=UserOut)\ndef create(work: UserCreate, db: Session=Depends(get_db)):\n    return create_user(db, work)\n@router.get(\"/\", response_model=list[UserOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_users(db)",
+        "detail": "app.modules.users.route",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "app.modules.users.schema",
+        "description": "app.modules.users.schema",
+        "peekOfCode": "class UserBase(BaseModel):\n    name: str\n    email: str\n    cpf: str | None = None\n    phone: str | None = None\n    profile: str | None = None\n    active: bool\n    image_url: str | None = None\n    password_hash: str\nclass UserCreate(UserBase):",
+        "detail": "app.modules.users.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "app.modules.users.schema",
+        "description": "app.modules.users.schema",
+        "peekOfCode": "class UserCreate(UserBase):\n    pass\nclass UserOut(UserBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
+        "detail": "app.modules.users.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserOut",
+        "kind": 6,
+        "importPath": "app.modules.users.schema",
+        "description": "app.modules.users.schema",
+        "peekOfCode": "class UserOut(UserBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
+        "detail": "app.modules.users.schema",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "app.modules.users.service",
+        "description": "app.modules.users.service",
+        "peekOfCode": "def create_user(db: Session, user: schema.UserCreate):\n    db_user = model.User(**user.dict())\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user\ndef list_users(db: Session):\n    return db.query(model.User).all()",
+        "detail": "app.modules.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "list_users",
+        "kind": 2,
+        "importPath": "app.modules.users.service",
+        "description": "app.modules.users.service",
+        "peekOfCode": "def list_users(db: Session):\n    return db.query(model.User).all()",
+        "detail": "app.modules.users.service",
+        "documentation": {}
+    },
+    {
         "label": "Work",
         "kind": 6,
         "importPath": "app.modules.works.model",
@@ -183,7 +303,7 @@
         "kind": 2,
         "importPath": "app.modules.works.route",
         "description": "app.modules.works.route",
-        "peekOfCode": "def create(work: WorkCreate, db: Session = Depends(get_db)):\n   return create_work(db, work)\n@router.get(\"/\", response_model=list[WorkOut])\ndef list_all(db: Session = Depends(get_db)):\n   return list_works(db)",
+        "peekOfCode": "def create(work: WorkCreate, db: Session=Depends(get_db)):\n    return create_work(db, work)\n@router.get(\"/\", response_model=list[WorkOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_works(db)",
         "detail": "app.modules.works.route",
         "documentation": {}
     },
@@ -192,7 +312,7 @@
         "kind": 2,
         "importPath": "app.modules.works.route",
         "description": "app.modules.works.route",
-        "peekOfCode": "def list_all(db: Session = Depends(get_db)):\n   return list_works(db)",
+        "peekOfCode": "def list_all(db: Session=Depends(get_db)):\n    return list_works(db)",
         "detail": "app.modules.works.route",
         "documentation": {}
     },
@@ -201,7 +321,7 @@
         "kind": 5,
         "importPath": "app.modules.works.route",
         "description": "app.modules.works.route",
-        "peekOfCode": "router = APIRouter(prefix=\"/work\", tags=[\"works\"])\n@router.post(\"/\", response_model=WorkOut)\ndef create(work: WorkCreate, db: Session = Depends(get_db)):\n   return create_work(db, work)\n@router.get(\"/\", response_model=list[WorkOut])\ndef list_all(db: Session = Depends(get_db)):\n   return list_works(db)",
+        "peekOfCode": "router = APIRouter(prefix=\"/work\", tags=[\"works\"])\n@router.post(\"/\", response_model=WorkOut)\ndef create(work: WorkCreate, db: Session=Depends(get_db)):\n    return create_work(db, work)\n@router.get(\"/\", response_model=list[WorkOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_works(db)",
         "detail": "app.modules.works.route",
         "documentation": {}
     },
@@ -219,7 +339,7 @@
         "kind": 6,
         "importPath": "app.modules.works.schema",
         "description": "app.modules.works.schema",
-        "peekOfCode": "class WorkCreate(WorkBase):\n    pass\nclass WorkOut(WorkBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True  # ✅ Pydantic v2",
+        "peekOfCode": "class WorkCreate(WorkBase):\n    pass\nclass WorkOut(WorkBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
         "detail": "app.modules.works.schema",
         "documentation": {}
     },
@@ -228,7 +348,7 @@
         "kind": 6,
         "importPath": "app.modules.works.schema",
         "description": "app.modules.works.schema",
-        "peekOfCode": "class WorkOut(WorkBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True  # ✅ Pydantic v2",
+        "peekOfCode": "class WorkOut(WorkBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
         "detail": "app.modules.works.schema",
         "documentation": {}
     },
@@ -237,7 +357,7 @@
         "kind": 2,
         "importPath": "app.modules.works.service",
         "description": "app.modules.works.service",
-        "peekOfCode": "def create_work(db: Session, work: schema.WorkCreate) -> model.Work:\n   new_work = model.Work(**work.dict())\n   db.add(new_work)\n   db.commit()\n   db.refresh(new_work)\n   return new_work\ndef list_works(db: Session):\n   return db.query(model.Work).all()",
+        "peekOfCode": "def create_work(db: Session, work: schema.WorkCreate) -> model.Work:\n    new_work = model.Work(**work.dict())\n    db.add(new_work)\n    db.commit()\n    db.refresh(new_work)\n    return new_work\ndef list_works(db: Session):\n    return db.query(model.Work).all()",
         "detail": "app.modules.works.service",
         "documentation": {}
     },
@@ -246,7 +366,7 @@
         "kind": 2,
         "importPath": "app.modules.works.service",
         "description": "app.modules.works.service",
-        "peekOfCode": "def list_works(db: Session):\n   return db.query(model.Work).all()",
+        "peekOfCode": "def list_works(db: Session):\n    return db.query(model.Work).all()",
         "detail": "app.modules.works.service",
         "documentation": {}
     },
@@ -363,7 +483,7 @@
         "kind": 5,
         "importPath": "app.routes",
         "description": "app.routes",
-        "peekOfCode": "router = APIRouter()\nrouter.include_router(work.router)\n\"\"\" router = APIRouter()\nrouter.include_router(work.router, tags=[\"work\"])\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "peekOfCode": "router = APIRouter()\nrouter.include_router(work.router)\nrouter.include_router(user.router)\n\"\"\" router = APIRouter()\nrouter.include_router(work.router, tags=[\"work\"])\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
         "detail": "app.routes",
         "documentation": {}
     },
