@@ -2,11 +2,13 @@ from fastapi import APIRouter
 from .modules.works import route as work
 from .modules.users import route as user
 from .modules.cars import route as car
+from .modules.jobs import route as job
 
 router = APIRouter()
 router.include_router(work.router)
 router.include_router(user.router)
 router.include_router(car.router)
+router.include_router(job.router)
 
 """ router = APIRouter()
 
