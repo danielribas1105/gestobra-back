@@ -1,17 +1,19 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from app.database import get_db
-from .schema import JobCreate, JobOut
-from .service import create_job, list_jobs
+from sqlmodel import select
+from app.db.database import get_session
+from app.modules.jobs.model import Job
 
 router = APIRouter(prefix="/job", tags=["jobs"])
 
+@router.post("/")
+def create_job(job: Job, session: Session = Depends(get_session)):
+    session.add(job)
+    session.commit()
+    session.refresh(job)
+    return job
 
-@router.post("/", response_model=JobOut)
-def create(work: JobCreate, db: Session=Depends(get_db)):
-    return create_job(db, work)
-
-
-@router.get("/", response_model=list[JobOut])
-def list_all(db: Session=Depends(get_db)):
-    return list_jobs(db)
+@router.get("/")
+def list_jobs(session: Session = Depends(get_session)):
+    jobs = session.exec(select(Job)).all()
+    return jobs

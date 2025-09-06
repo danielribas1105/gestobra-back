@@ -1,11 +1,14 @@
 from fastapi import FastAPI
-""" from app import models, database """
+from sqlmodel import SQLModel
+from app.db.database import engine
 from .routes import router
-
-""" models.SQLModel.metadata.create_all(bind=database.engine) """
 
 app = FastAPI()
 app.include_router(router)
+
+@app.on_event("startup")
+def on_startup():
+    SQLModel.metadata.create_all(engine)
 
 @app.get("/")
 def home():

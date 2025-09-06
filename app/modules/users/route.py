@@ -1,17 +1,19 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from app.database import get_db
-from .schema import UserCreate, UserOut
-from .service import create_user, list_users
+from sqlmodel import select
+from app.db.database import get_session
+from app.modules.users.model import User
 
 router = APIRouter(prefix="/user", tags=["users"])
 
+@router.post("/")
+def create_user(user: User, session: Session = Depends(get_session)):
+    session.add(user)
+    session.commit()
+    session.refresh(user)
+    return user
 
-@router.post("/", response_model=UserOut)
-def create(work: UserCreate, db: Session=Depends(get_db)):
-    return create_user(db, work)
-
-
-@router.get("/", response_model=list[UserOut])
-def list_all(db: Session=Depends(get_db)):
-    return list_users(db)
+@router.get("/")
+def list_users(session: Session = Depends(get_session)):
+    users = session.exec(select(User)).all()
+    return users

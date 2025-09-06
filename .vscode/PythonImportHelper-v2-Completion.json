@@ -1,5 +1,262 @@
 [
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
         "label": "uuid",
         "kind": 6,
         "isExtraImport": true,
@@ -54,198 +311,6 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "SQLModel",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "SQLModel",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "SQLModel",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "SQLModel",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "SQLModel",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "select",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "SQLModel",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
         "documentation": {}
     },
     {
@@ -570,51 +635,102 @@
         "documentation": {}
     },
     {
-        "label": "sessionmaker",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "get_session",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.db.database",
         "documentation": {}
     },
     {
-        "label": "declarative_base",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "get_session",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.db.database",
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.database",
-        "description": "app.database",
+        "label": "get_session",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
         "isExtraImport": true,
-        "detail": "app.database",
+        "detail": "app.db.database",
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.database",
-        "description": "app.database",
+        "label": "get_session",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
         "isExtraImport": true,
-        "detail": "app.database",
+        "detail": "app.db.database",
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.database",
-        "description": "app.database",
+        "label": "engine",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
         "isExtraImport": true,
-        "detail": "app.database",
+        "detail": "app.db.database",
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.database",
-        "description": "app.database",
+        "label": "Car",
+        "importPath": "app.modules.cars.model",
+        "description": "app.modules.cars.model",
         "isExtraImport": true,
-        "detail": "app.database",
+        "detail": "app.modules.cars.model",
+        "documentation": {}
+    },
+    {
+        "label": "Job",
+        "importPath": "app.modules.jobs.model",
+        "description": "app.modules.jobs.model",
+        "isExtraImport": true,
+        "detail": "app.modules.jobs.model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.modules.users.model",
+        "description": "app.modules.users.model",
+        "isExtraImport": true,
+        "detail": "app.modules.users.model",
+        "documentation": {}
+    },
+    {
+        "label": "Work",
+        "importPath": "app.modules.works.model",
+        "description": "app.modules.works.model",
+        "isExtraImport": true,
+        "detail": "app.modules.works.model",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "kind": 2,
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "peekOfCode": "def get_session():\n    with Session(engine) as session:\n        yield session",
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")\nengine = create_engine(DATABASE_URL, echo=True)\ndef get_session():\n    with Session(engine) as session:\n        yield session",
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "peekOfCode": "engine = create_engine(DATABASE_URL, echo=True)\ndef get_session():\n    with Session(engine) as session:\n        yield session",
+        "detail": "app.db.database",
         "documentation": {}
     },
     {
@@ -717,20 +833,20 @@
         "documentation": {}
     },
     {
-        "label": "create",
+        "label": "create_car",
         "kind": 2,
         "importPath": "app.modules.cars.route",
         "description": "app.modules.cars.route",
-        "peekOfCode": "def create(car: CarCreate, db: Session=Depends(get_db)):\n    return create_car(db, car)\n@router.get(\"/\", response_model=list[CarOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_cars(db)",
+        "peekOfCode": "def create_car(car: Car, session: Session = Depends(get_session)):\n    session.add(car)\n    session.commit()\n    session.refresh(car)\n    return car\n@router.get(\"/\")\ndef list_cars(session: Session = Depends(get_session)):\n    cars = session.exec(select(Car)).all()\n    return cars",
         "detail": "app.modules.cars.route",
         "documentation": {}
     },
     {
-        "label": "list_all",
+        "label": "list_cars",
         "kind": 2,
         "importPath": "app.modules.cars.route",
         "description": "app.modules.cars.route",
-        "peekOfCode": "def list_all(db: Session=Depends(get_db)):\n    return list_cars(db)",
+        "peekOfCode": "def list_cars(session: Session = Depends(get_session)):\n    cars = session.exec(select(Car)).all()\n    return cars",
         "detail": "app.modules.cars.route",
         "documentation": {}
     },
@@ -739,7 +855,7 @@
         "kind": 5,
         "importPath": "app.modules.cars.route",
         "description": "app.modules.cars.route",
-        "peekOfCode": "router = APIRouter(prefix=\"/car\", tags=[\"cars\"])\n@router.post(\"/\", response_model=CarOut)\ndef create(car: CarCreate, db: Session=Depends(get_db)):\n    return create_car(db, car)\n@router.get(\"/\", response_model=list[CarOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_cars(db)",
+        "peekOfCode": "router = APIRouter(prefix=\"/car\", tags=[\"cars\"])\n@router.post(\"/\")\ndef create_car(car: Car, session: Session = Depends(get_session)):\n    session.add(car)\n    session.commit()\n    session.refresh(car)\n    return car\n@router.get(\"/\")\ndef list_cars(session: Session = Depends(get_session)):\n    cars = session.exec(select(Car)).all()",
         "detail": "app.modules.cars.route",
         "documentation": {}
     },
@@ -798,20 +914,20 @@
         "documentation": {}
     },
     {
-        "label": "create",
+        "label": "create_job",
         "kind": 2,
         "importPath": "app.modules.jobs.route",
         "description": "app.modules.jobs.route",
-        "peekOfCode": "def create(work: JobCreate, db: Session=Depends(get_db)):\n    return create_job(db, work)\n@router.get(\"/\", response_model=list[JobOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_jobs(db)",
+        "peekOfCode": "def create_job(job: Job, session: Session = Depends(get_session)):\n    session.add(job)\n    session.commit()\n    session.refresh(job)\n    return job\n@router.get(\"/\")\ndef list_jobs(session: Session = Depends(get_session)):\n    jobs = session.exec(select(Job)).all()\n    return jobs",
         "detail": "app.modules.jobs.route",
         "documentation": {}
     },
     {
-        "label": "list_all",
+        "label": "list_jobs",
         "kind": 2,
         "importPath": "app.modules.jobs.route",
         "description": "app.modules.jobs.route",
-        "peekOfCode": "def list_all(db: Session=Depends(get_db)):\n    return list_jobs(db)",
+        "peekOfCode": "def list_jobs(session: Session = Depends(get_session)):\n    jobs = session.exec(select(Job)).all()\n    return jobs",
         "detail": "app.modules.jobs.route",
         "documentation": {}
     },
@@ -820,7 +936,7 @@
         "kind": 5,
         "importPath": "app.modules.jobs.route",
         "description": "app.modules.jobs.route",
-        "peekOfCode": "router = APIRouter(prefix=\"/job\", tags=[\"jobs\"])\n@router.post(\"/\", response_model=JobOut)\ndef create(work: JobCreate, db: Session=Depends(get_db)):\n    return create_job(db, work)\n@router.get(\"/\", response_model=list[JobOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_jobs(db)",
+        "peekOfCode": "router = APIRouter(prefix=\"/job\", tags=[\"jobs\"])\n@router.post(\"/\")\ndef create_job(job: Job, session: Session = Depends(get_session)):\n    session.add(job)\n    session.commit()\n    session.refresh(job)\n    return job\n@router.get(\"/\")\ndef list_jobs(session: Session = Depends(get_session)):\n    jobs = session.exec(select(Job)).all()",
         "detail": "app.modules.jobs.route",
         "documentation": {}
     },
@@ -879,20 +995,20 @@
         "documentation": {}
     },
     {
-        "label": "create",
+        "label": "create_user",
         "kind": 2,
         "importPath": "app.modules.users.route",
         "description": "app.modules.users.route",
-        "peekOfCode": "def create(work: UserCreate, db: Session=Depends(get_db)):\n    return create_user(db, work)\n@router.get(\"/\", response_model=list[UserOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_users(db)",
+        "peekOfCode": "def create_user(user: User, session: Session = Depends(get_session)):\n    session.add(user)\n    session.commit()\n    session.refresh(user)\n    return user\n@router.get(\"/\")\ndef list_users(session: Session = Depends(get_session)):\n    users = session.exec(select(User)).all()\n    return users",
         "detail": "app.modules.users.route",
         "documentation": {}
     },
     {
-        "label": "list_all",
+        "label": "list_users",
         "kind": 2,
         "importPath": "app.modules.users.route",
         "description": "app.modules.users.route",
-        "peekOfCode": "def list_all(db: Session=Depends(get_db)):\n    return list_users(db)",
+        "peekOfCode": "def list_users(session: Session = Depends(get_session)):\n    users = session.exec(select(User)).all()\n    return users",
         "detail": "app.modules.users.route",
         "documentation": {}
     },
@@ -901,7 +1017,7 @@
         "kind": 5,
         "importPath": "app.modules.users.route",
         "description": "app.modules.users.route",
-        "peekOfCode": "router = APIRouter(prefix=\"/user\", tags=[\"users\"])\n@router.post(\"/\", response_model=UserOut)\ndef create(work: UserCreate, db: Session=Depends(get_db)):\n    return create_user(db, work)\n@router.get(\"/\", response_model=list[UserOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_users(db)",
+        "peekOfCode": "router = APIRouter(prefix=\"/user\", tags=[\"users\"])\n@router.post(\"/\")\ndef create_user(user: User, session: Session = Depends(get_session)):\n    session.add(user)\n    session.commit()\n    session.refresh(user)\n    return user\n@router.get(\"/\")\ndef list_users(session: Session = Depends(get_session)):\n    users = session.exec(select(User)).all()",
         "detail": "app.modules.users.route",
         "documentation": {}
     },
@@ -960,20 +1076,20 @@
         "documentation": {}
     },
     {
-        "label": "create",
+        "label": "create_work",
         "kind": 2,
         "importPath": "app.modules.works.route",
         "description": "app.modules.works.route",
-        "peekOfCode": "def create(work: WorkCreate, db: Session=Depends(get_db)):\n    return create_work(db, work)\n@router.get(\"/\", response_model=list[WorkOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_works(db)",
+        "peekOfCode": "def create_work(work: Work, session: Session = Depends(get_session)):\n    session.add(work)\n    session.commit()\n    session.refresh(work)\n    return work\n@router.get(\"/\")\ndef list_works(session: Session = Depends(get_session)):\n    works = session.exec(select(Work)).all()\n    return works",
         "detail": "app.modules.works.route",
         "documentation": {}
     },
     {
-        "label": "list_all",
+        "label": "list_works",
         "kind": 2,
         "importPath": "app.modules.works.route",
         "description": "app.modules.works.route",
-        "peekOfCode": "def list_all(db: Session=Depends(get_db)):\n    return list_works(db)",
+        "peekOfCode": "def list_works(session: Session = Depends(get_session)):\n    works = session.exec(select(Work)).all()\n    return works",
         "detail": "app.modules.works.route",
         "documentation": {}
     },
@@ -982,7 +1098,7 @@
         "kind": 5,
         "importPath": "app.modules.works.route",
         "description": "app.modules.works.route",
-        "peekOfCode": "router = APIRouter(prefix=\"/work\", tags=[\"works\"])\n@router.post(\"/\", response_model=WorkOut)\ndef create(work: WorkCreate, db: Session=Depends(get_db)):\n    return create_work(db, work)\n@router.get(\"/\", response_model=list[WorkOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_works(db)",
+        "peekOfCode": "router = APIRouter(prefix=\"/work\", tags=[\"works\"])\n@router.post(\"/\")\ndef create_work(work: Work, session: Session = Depends(get_session)):\n    session.add(work)\n    session.commit()\n    session.refresh(work)\n    return work\n@router.get(\"/\")\ndef list_works(session: Session = Depends(get_session)):\n    works = session.exec(select(Work)).all()",
         "detail": "app.modules.works.route",
         "documentation": {}
     },
@@ -1050,48 +1166,12 @@
         "documentation": {}
     },
     {
-        "label": "get_db",
+        "label": "on_startup",
         "kind": 2,
-        "importPath": "app.database",
-        "description": "app.database",
-        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "app.database",
-        "documentation": {}
-    },
-    {
-        "label": "SQLALCHEMY_DATABASE_URL",
-        "kind": 5,
-        "importPath": "app.database",
-        "description": "app.database",
-        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"sqlite:///./db.sqlite3\"\nengine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "app.database",
-        "documentation": {}
-    },
-    {
-        "label": "engine",
-        "kind": 5,
-        "importPath": "app.database",
-        "description": "app.database",
-        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "app.database",
-        "documentation": {}
-    },
-    {
-        "label": "SessionLocal",
-        "kind": 5,
-        "importPath": "app.database",
-        "description": "app.database",
-        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "app.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "kind": 5,
-        "importPath": "app.database",
-        "description": "app.database",
-        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "app.database",
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def on_startup():\n    SQLModel.metadata.create_all(engine)\n@app.get(\"/\")\ndef home():\n   return {\"project\": \"GestObra\"}",
+        "detail": "app.main",
         "documentation": {}
     },
     {
@@ -1108,7 +1188,7 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "app = FastAPI()\napp.include_router(router)\n@app.get(\"/\")\ndef home():\n   return {\"project\": \"GestObra\"}",
+        "peekOfCode": "app = FastAPI()\napp.include_router(router)\n@app.on_event(\"startup\")\ndef on_startup():\n    SQLModel.metadata.create_all(engine)\n@app.get(\"/\")\ndef home():\n   return {\"project\": \"GestObra\"}",
         "detail": "app.main",
         "documentation": {}
     },

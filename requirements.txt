@@ -3,3 +3,5 @@ uvicorn
 sqlalchemy
 sqlmodel
 fastapi-async-sqlalchemy
+asyncpg
+python-dotenv
