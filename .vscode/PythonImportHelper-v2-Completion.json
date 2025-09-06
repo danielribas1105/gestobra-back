@@ -9,35 +9,115 @@
         "documentation": {}
     },
     {
-        "label": "SQLModel",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
         "isExtraImport": true,
-        "detail": "sqlmodel",
+        "detail": "uuid",
         "documentation": {}
     },
     {
-        "label": "Field",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "sqlmodel",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "SQLModel",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "sqlmodel",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "Field",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "sqlmodel",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
@@ -62,6 +142,247 @@
         "description": "sqlalchemy",
         "isExtraImport": true,
         "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "floor",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -110,6 +431,102 @@
         "description": "fastapi",
         "isExtraImport": true,
         "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "fastapi_async_sqlalchemy",
+        "description": "fastapi_async_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "fastapi_async_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "fastapi_async_sqlalchemy",
+        "description": "fastapi_async_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "fastapi_async_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "UserSession",
+        "importPath": "modules.auth.model",
+        "description": "modules.auth.model",
+        "isExtraImport": true,
+        "detail": "modules.auth.model",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "importPath": "modules.auth.schema",
+        "description": "modules.auth.schema",
+        "isExtraImport": true,
+        "detail": "modules.auth.schema",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_email",
+        "importPath": "modules.users.service",
+        "description": "modules.users.service",
+        "isExtraImport": true,
+        "detail": "modules.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_id",
+        "importPath": "modules.users.service",
+        "description": "modules.users.service",
+        "isExtraImport": true,
+        "detail": "modules.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
@@ -185,27 +602,271 @@
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "app.database",
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "app.database",
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
+        "label": "UserSession",
+        "kind": 6,
+        "importPath": "app.modules.auth.model",
+        "description": "app.modules.auth.model",
+        "peekOfCode": "class UserSession(SQLModel, table=True):\n    __tablename__ = \"user_session\" # type: ignore\n    id: uuid.UUID = Field(  \n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    user_id: uuid.UUID | None = Field(default=None, foreign_key=\"user.id\")\n    expires_at: datetime = Field(\n        sa_column=Column(DateTime(timezone=True), nullable=False),",
+        "detail": "app.modules.auth.model",
+        "documentation": {}
+    },
+    {
+        "label": "UserSession",
+        "kind": 6,
+        "importPath": "app.modules.auth.route",
+        "description": "app.modules.auth.route",
+        "peekOfCode": "class UserSession(SQLModel, table=True):\n    __tablename__ = \"user_session\" # type: ignore\n    id: uuid.UUID = Field(  \n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    user_id: uuid.UUID | None = Field(default=None, foreign_key=\"user.id\")\n    expires_at: datetime = Field(\n        sa_column=Column(DateTime(timezone=True), nullable=False),",
+        "detail": "app.modules.auth.route",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "app.modules.auth.schema",
+        "description": "app.modules.auth.schema",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\n    expire_at: int\n    refresh_token: str\nclass TokenData(BaseModel):\n    user_id: str | None = None\nclass RefreshTokenBody(BaseModel):\n    refresh_token: str",
+        "detail": "app.modules.auth.schema",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "kind": 6,
+        "importPath": "app.modules.auth.schema",
+        "description": "app.modules.auth.schema",
+        "peekOfCode": "class TokenData(BaseModel):\n    user_id: str | None = None\nclass RefreshTokenBody(BaseModel):\n    refresh_token: str",
+        "detail": "app.modules.auth.schema",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshTokenBody",
+        "kind": 6,
+        "importPath": "app.modules.auth.schema",
+        "description": "app.modules.auth.schema",
+        "peekOfCode": "class RefreshTokenBody(BaseModel):\n    refresh_token: str",
+        "detail": "app.modules.auth.schema",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "app.modules.auth.service",
+        "description": "app.modules.auth.service",
+        "peekOfCode": "def verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    # TODO: Add salt\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: timedelta | None = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.now(timezone.utc) + expires_delta\n    else:",
+        "detail": "app.modules.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "get_password_hash",
+        "kind": 2,
+        "importPath": "app.modules.auth.service",
+        "description": "app.modules.auth.service",
+        "peekOfCode": "def get_password_hash(password):\n    # TODO: Add salt\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: timedelta | None = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.now(timezone.utc) + expires_delta\n    else:\n        expire = datetime.now(timezone.utc) + timedelta(\n            minutes=ACCESS_TOKEN_EXPIRE_MINUTES",
+        "detail": "app.modules.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "app.modules.auth.service",
+        "description": "app.modules.auth.service",
+        "peekOfCode": "def create_access_token(data: dict, expires_delta: timedelta | None = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.now(timezone.utc) + expires_delta\n    else:\n        expire = datetime.now(timezone.utc) + timedelta(\n            minutes=ACCESS_TOKEN_EXPIRE_MINUTES\n        )\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)",
+        "detail": "app.modules.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "app.modules.auth.service",
+        "description": "app.modules.auth.service",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/api/v1/auth/token\")\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    # TODO: Add salt\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: timedelta | None = None):\n    to_encode = data.copy()\n    if expires_delta:",
+        "detail": "app.modules.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "app.modules.auth.service",
+        "description": "app.modules.auth.service",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    # TODO: Add salt\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: timedelta | None = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.now(timezone.utc) + expires_delta",
+        "detail": "app.modules.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "app.modules.cars.model",
+        "description": "app.modules.cars.model",
+        "peekOfCode": "class Car(SQLModel, table=True):\n    __tablename__ = \"cars\"\n    id: uuid.UUID = Field(\n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    model: str = Field()\n    license: str = Field(sa_column_kwargs={\"unique\": True, \"index\": True})\n    driver: str  # TODO - avaliar se será um user_id ",
+        "detail": "app.modules.cars.model",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "app.modules.cars.route",
+        "description": "app.modules.cars.route",
+        "peekOfCode": "def create(car: CarCreate, db: Session=Depends(get_db)):\n    return create_car(db, car)\n@router.get(\"/\", response_model=list[CarOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_cars(db)",
+        "detail": "app.modules.cars.route",
+        "documentation": {}
+    },
+    {
+        "label": "list_all",
+        "kind": 2,
+        "importPath": "app.modules.cars.route",
+        "description": "app.modules.cars.route",
+        "peekOfCode": "def list_all(db: Session=Depends(get_db)):\n    return list_cars(db)",
+        "detail": "app.modules.cars.route",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.modules.cars.route",
+        "description": "app.modules.cars.route",
+        "peekOfCode": "router = APIRouter(prefix=\"/car\", tags=[\"cars\"])\n@router.post(\"/\", response_model=CarOut)\ndef create(car: CarCreate, db: Session=Depends(get_db)):\n    return create_car(db, car)\n@router.get(\"/\", response_model=list[CarOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_cars(db)",
+        "detail": "app.modules.cars.route",
+        "documentation": {}
+    },
+    {
+        "label": "CarBase",
+        "kind": 6,
+        "importPath": "app.modules.cars.schema",
+        "description": "app.modules.cars.schema",
+        "peekOfCode": "class CarBase(BaseModel):\n    model: str\n    license: str\n    driver: str\n    manufacture: int | None = None\n    km: int | None = None\n    fuel: str | None = None\n    strength: str | None = None\n    capacity: str | None = None\n    versatility: str | None = None",
+        "detail": "app.modules.cars.schema",
+        "documentation": {}
+    },
+    {
+        "label": "CarCreate",
+        "kind": 6,
+        "importPath": "app.modules.cars.schema",
+        "description": "app.modules.cars.schema",
+        "peekOfCode": "class CarCreate(CarBase):\n    pass\nclass CarOut(CarBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
+        "detail": "app.modules.cars.schema",
+        "documentation": {}
+    },
+    {
+        "label": "CarOut",
+        "kind": 6,
+        "importPath": "app.modules.cars.schema",
+        "description": "app.modules.cars.schema",
+        "peekOfCode": "class CarOut(CarBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
+        "detail": "app.modules.cars.schema",
+        "documentation": {}
+    },
+    {
+        "label": "create_car",
+        "kind": 2,
+        "importPath": "app.modules.cars.service",
+        "description": "app.modules.cars.service",
+        "peekOfCode": "def create_car(db: Session, car: schema.CarCreate):\n    db_car = model.Car(**car.dict())\n    db.add(db_car)\n    db.commit()\n    db.refresh(db_car)\n    return db_car\ndef list_cars(db: Session):\n    return db.query(model.Car).all()",
+        "detail": "app.modules.cars.service",
+        "documentation": {}
+    },
+    {
+        "label": "list_cars",
+        "kind": 2,
+        "importPath": "app.modules.cars.service",
+        "description": "app.modules.cars.service",
+        "peekOfCode": "def list_cars(db: Session):\n    return db.query(model.Car).all()",
+        "detail": "app.modules.cars.service",
+        "documentation": {}
+    },
+    {
+        "label": "Job",
+        "kind": 6,
+        "importPath": "app.modules.jobs.model",
+        "description": "app.modules.jobs.model",
+        "peekOfCode": "class Job(SQLModel, table=True):\n    __tablename__ = \"jobs\"\n    id: uuid.UUID = Field(\n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    created_at: str = Field()\n    updated_at: str = Field()\n    origin: str = Field()",
+        "detail": "app.modules.jobs.model",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "app.modules.jobs.route",
+        "description": "app.modules.jobs.route",
+        "peekOfCode": "def create(work: JobCreate, db: Session=Depends(get_db)):\n    return create_job(db, work)\n@router.get(\"/\", response_model=list[JobOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_jobs(db)",
+        "detail": "app.modules.jobs.route",
+        "documentation": {}
+    },
+    {
+        "label": "list_all",
+        "kind": 2,
+        "importPath": "app.modules.jobs.route",
+        "description": "app.modules.jobs.route",
+        "peekOfCode": "def list_all(db: Session=Depends(get_db)):\n    return list_jobs(db)",
+        "detail": "app.modules.jobs.route",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.modules.jobs.route",
+        "description": "app.modules.jobs.route",
+        "peekOfCode": "router = APIRouter(prefix=\"/job\", tags=[\"jobs\"])\n@router.post(\"/\", response_model=JobOut)\ndef create(work: JobCreate, db: Session=Depends(get_db)):\n    return create_job(db, work)\n@router.get(\"/\", response_model=list[JobOut])\ndef list_all(db: Session=Depends(get_db)):\n    return list_jobs(db)",
+        "detail": "app.modules.jobs.route",
+        "documentation": {}
+    },
+    {
+        "label": "JobBase",
+        "kind": 6,
+        "importPath": "app.modules.jobs.schema",
+        "description": "app.modules.jobs.schema",
+        "peekOfCode": "class JobBase(BaseModel):\n    created_at: str\n    updated_at: str\n    origin: str\n    destiny: str\n    car_id: str\n    user_id: str\n    m3: int\n    status: str\nclass JobCreate(JobBase):",
+        "detail": "app.modules.jobs.schema",
+        "documentation": {}
+    },
+    {
+        "label": "JobCreate",
+        "kind": 6,
+        "importPath": "app.modules.jobs.schema",
+        "description": "app.modules.jobs.schema",
+        "peekOfCode": "class JobCreate(JobBase):\n    pass\nclass JobOut(JobBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
+        "detail": "app.modules.jobs.schema",
+        "documentation": {}
+    },
+    {
+        "label": "JobOut",
+        "kind": 6,
+        "importPath": "app.modules.jobs.schema",
+        "description": "app.modules.jobs.schema",
+        "peekOfCode": "class JobOut(JobBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
+        "detail": "app.modules.jobs.schema",
+        "documentation": {}
+    },
+    {
+        "label": "create_job",
+        "kind": 2,
+        "importPath": "app.modules.jobs.service",
+        "description": "app.modules.jobs.service",
+        "peekOfCode": "def create_job(db: Session, job: schema.JobCreate):\n    db_job = model.Job(**job.dict())\n    db.add(db_job)\n    db.commit()\n    db.refresh(db_job)\n    return db_job\ndef list_jobs(db: Session):\n    return db.query(model.Job).all()",
+        "detail": "app.modules.jobs.service",
+        "documentation": {}
+    },
+    {
+        "label": "list_jobs",
+        "kind": 2,
+        "importPath": "app.modules.jobs.service",
+        "description": "app.modules.jobs.service",
+        "peekOfCode": "def list_jobs(db: Session):\n    return db.query(model.Job).all()",
+        "detail": "app.modules.jobs.service",
         "documentation": {}
     },
     {
@@ -276,7 +937,7 @@
         "kind": 2,
         "importPath": "app.modules.users.service",
         "description": "app.modules.users.service",
-        "peekOfCode": "def create_user(db: Session, user: schema.UserCreate):\n    db_user = model.User(**user.dict())\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user\ndef list_users(db: Session):\n    return db.query(model.User).all()",
+        "peekOfCode": "def create_user(db: Session, user: schema.UserCreate):\n    db_user = model.User(**user.dict())\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user\ndef list_users(db: Session):\n    return db.query(model.User).all()\nasync def get_user_by_id(id: uuid.UUID | str | None):\n    return await db.session.get(model.User, id)",
         "detail": "app.modules.users.service",
         "documentation": {}
     },
@@ -285,7 +946,7 @@
         "kind": 2,
         "importPath": "app.modules.users.service",
         "description": "app.modules.users.service",
-        "peekOfCode": "def list_users(db: Session):\n    return db.query(model.User).all()",
+        "peekOfCode": "def list_users(db: Session):\n    return db.query(model.User).all()\nasync def get_user_by_id(id: uuid.UUID | str | None):\n    return await db.session.get(model.User, id)\nasync def get_user_by_email(email) -> model.User | None:\n    result = (await db.session.execute(select(model.User).where(model.User.email == email))).first()\n    return result[0] if result is not None else None",
         "detail": "app.modules.users.service",
         "documentation": {}
     },
@@ -483,7 +1144,7 @@
         "kind": 5,
         "importPath": "app.routes",
         "description": "app.routes",
-        "peekOfCode": "router = APIRouter()\nrouter.include_router(work.router)\nrouter.include_router(user.router)\n\"\"\" router = APIRouter()\nrouter.include_router(work.router, tags=[\"work\"])\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
+        "peekOfCode": "router = APIRouter()\nrouter.include_router(work.router)\nrouter.include_router(user.router)\nrouter.include_router(car.router)\nrouter.include_router(job.router)\n\"\"\" router = APIRouter()\nrouter.include_router(work.router, tags=[\"work\"])\ndef get_db():\n    db = SessionLocal()\n    try:",
         "detail": "app.routes",
         "documentation": {}
     },

@@ -1,8 +1,8 @@
 from fastapi import APIRouter
 from .modules.works import route as work
-from .modules.users import route as user
 from .modules.cars import route as car
 from .modules.jobs import route as job
+from .modules.users import route as user
 
 router = APIRouter()
 router.include_router(work.router)
