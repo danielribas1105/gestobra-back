@@ -1,3 +1,4 @@
+from typing import Optional
 import uuid
 from pydantic import BaseModel
 
@@ -5,7 +6,7 @@ from pydantic import BaseModel
 class CarBase(BaseModel):
     model: str
     license: str
-    driver: str
+    driver_id: uuid.UUID
     manufacture: int | None = None
     km: int | None = None
     fuel: str | None = None
@@ -19,9 +20,17 @@ class CarBase(BaseModel):
 class CarCreate(CarBase):
     pass
 
+class UserNested(BaseModel):
+    id: uuid.UUID
+    name: str
+    email: str
+
+    class Config:
+        from_attributes = True
 
 class CarOut(CarBase):
     id: uuid.UUID
+    driver: Optional[UserNested]
 
     class Config:
         from_attributes = True

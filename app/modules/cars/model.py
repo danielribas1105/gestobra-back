@@ -1,5 +1,7 @@
+from __future__ import annotations
+from typing import Optional
 import uuid
-from sqlmodel import SQLModel, Field
+from sqlmodel import Relationship, SQLModel, Field
 from sqlalchemy import text
 
 class Car(SQLModel, table=True):
@@ -13,7 +15,9 @@ class Car(SQLModel, table=True):
     
     model: str = Field()
     license: str = Field(sa_column_kwargs={"unique": True, "index": True})
-    driver: str  # TODO - avaliar se será um user_id 
+    driver_id: Optional[uuid.UUID] = Field(
+        foreign_key="users.id", nullable=False, index=True
+    ) 
     manufacture: int | None = Field(default=None)
     km: int | None = Field(default=None)
     fuel: str | None = Field(default=None)
@@ -22,3 +26,5 @@ class Car(SQLModel, table=True):
     versatility: str | None = Field(default=None)
     active: bool = Field(default=True, sa_column_kwargs={"server_default": "true"})
     image_url: str | None = Field(default=None)
+    
+    driver: "User" = Relationship(back_populates="cars")

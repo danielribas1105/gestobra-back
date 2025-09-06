@@ -1,7 +1,8 @@
+from __future__ import annotations
+from typing import List
 import uuid
-from sqlmodel import SQLModel, Field
+from sqlmodel import Relationship, SQLModel, Field
 from sqlalchemy import text
-
 
 class User(SQLModel, table=True):
     __tablename__ = "users"
@@ -19,3 +20,5 @@ class User(SQLModel, table=True):
     active: bool = Field(default=True, sa_column_kwargs={"server_default": "true"})
     image_url: str | None = Field(default=None)
     password_hash: str = Field()
+
+    cars: List["Car"] = Relationship(back_populates="driver")

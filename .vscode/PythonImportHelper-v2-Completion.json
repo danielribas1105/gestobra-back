@@ -145,23 +145,7 @@
         "documentation": {}
     },
     {
-        "label": "SQLModel",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "select",
+        "label": "Relationship",
         "importPath": "sqlmodel",
         "description": "sqlmodel",
         "isExtraImport": true,
@@ -186,6 +170,38 @@
     },
     {
         "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Relationship",
         "importPath": "sqlmodel",
         "description": "sqlmodel",
         "isExtraImport": true,
@@ -387,6 +403,38 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "jwt",
         "kind": 6,
         "isExtraImport": true,
@@ -444,15 +492,7 @@
         "documentation": {}
     },
     {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Depends",
+        "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -469,6 +509,30 @@
     },
     {
         "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -572,7 +636,31 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
         "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "selectinload",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -605,6 +693,14 @@
     },
     {
         "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "selectinload",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -692,11 +788,11 @@
         "documentation": {}
     },
     {
-        "label": "Job",
-        "importPath": "app.modules.jobs.model",
-        "description": "app.modules.jobs.model",
+        "label": "schema",
+        "importPath": "app.modules.cars",
+        "description": "app.modules.cars",
         "isExtraImport": true,
-        "detail": "app.modules.jobs.model",
+        "detail": "app.modules.cars",
         "documentation": {}
     },
     {
@@ -705,6 +801,30 @@
         "description": "app.modules.users.model",
         "isExtraImport": true,
         "detail": "app.modules.users.model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.modules.users.model",
+        "description": "app.modules.users.model",
+        "isExtraImport": true,
+        "detail": "app.modules.users.model",
+        "documentation": {}
+    },
+    {
+        "label": "Job",
+        "importPath": "app.modules.jobs.model",
+        "description": "app.modules.jobs.model",
+        "isExtraImport": true,
+        "detail": "app.modules.jobs.model",
+        "documentation": {}
+    },
+    {
+        "label": "schema",
+        "importPath": "app.modules.users",
+        "description": "app.modules.users",
+        "isExtraImport": true,
+        "detail": "app.modules.users",
         "documentation": {}
     },
     {
@@ -845,7 +965,7 @@
         "kind": 6,
         "importPath": "app.modules.cars.model",
         "description": "app.modules.cars.model",
-        "peekOfCode": "class Car(SQLModel, table=True):\n    __tablename__ = \"cars\"\n    id: uuid.UUID = Field(\n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    model: str = Field()\n    license: str = Field(sa_column_kwargs={\"unique\": True, \"index\": True})\n    driver: str  # TODO - avaliar se será um user_id ",
+        "peekOfCode": "class Car(SQLModel, table=True):\n    __tablename__ = \"cars\"\n    id: uuid.UUID = Field(\n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    model: str = Field()\n    license: str = Field(sa_column_kwargs={\"unique\": True, \"index\": True})\n    driver_id: Optional[uuid.UUID] = Field(",
         "detail": "app.modules.cars.model",
         "documentation": {}
     },
@@ -854,7 +974,7 @@
         "kind": 2,
         "importPath": "app.modules.cars.route",
         "description": "app.modules.cars.route",
-        "peekOfCode": "def create_car(car: Car, session: Session = Depends(get_session)):\n    session.add(car)\n    session.commit()\n    session.refresh(car)\n    return car\n@router.get(\"/\")\ndef list_cars(session: Session = Depends(get_session)):\n    cars = session.exec(select(Car)).all()\n    return cars",
+        "peekOfCode": "def create_car(car: schema.CarCreate, session: Session = Depends(get_session)):\n    db_car = Car(**car.dict())\n    session.add(db_car)\n    session.commit()\n    session.refresh(db_car)\n    return db_car\n@router.get(\"/\", response_model=list[schema.CarOut])\ndef list_cars(session: Session = Depends(get_session)):\n    statement = select(Car).options(selectinload(Car.driver))\n    cars = session.exec(statement).all()",
         "detail": "app.modules.cars.route",
         "documentation": {}
     },
@@ -863,7 +983,25 @@
         "kind": 2,
         "importPath": "app.modules.cars.route",
         "description": "app.modules.cars.route",
-        "peekOfCode": "def list_cars(session: Session = Depends(get_session)):\n    cars = session.exec(select(Car)).all()\n    return cars",
+        "peekOfCode": "def list_cars(session: Session = Depends(get_session)):\n    statement = select(Car).options(selectinload(Car.driver))\n    cars = session.exec(statement).all()\n    return cars\n@router.get(\"/{id}\", response_model=schema.CarOut)\ndef get_car(id: str, session: Session = Depends(get_session)):\n    statement = (\n        select(Car)\n        .where(Car.id == id)\n        .options(selectinload(Car.driver))",
+        "detail": "app.modules.cars.route",
+        "documentation": {}
+    },
+    {
+        "label": "get_car",
+        "kind": 2,
+        "importPath": "app.modules.cars.route",
+        "description": "app.modules.cars.route",
+        "peekOfCode": "def get_car(id: str, session: Session = Depends(get_session)):\n    statement = (\n        select(Car)\n        .where(Car.id == id)\n        .options(selectinload(Car.driver))\n    )\n    car = session.exec(statement).first()\n    if not car:\n        raise HTTPException(status_code=404, detail=\"Car not found\")\n    return car",
+        "detail": "app.modules.cars.route",
+        "documentation": {}
+    },
+    {
+        "label": "assign_driver",
+        "kind": 2,
+        "importPath": "app.modules.cars.route",
+        "description": "app.modules.cars.route",
+        "peekOfCode": "def assign_driver(id: str, driver_id: str, session: Session = Depends(get_session)):\n    # Verifica se o carro existe\n    car = session.get(Car, id)\n    if not car:\n        raise HTTPException(status_code=404, detail=\"Car not found\")\n    # Verifica se o user existe\n    user = session.get(User, driver_id)\n    if not user:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    # Atualiza o motorista",
         "detail": "app.modules.cars.route",
         "documentation": {}
     },
@@ -872,7 +1010,7 @@
         "kind": 5,
         "importPath": "app.modules.cars.route",
         "description": "app.modules.cars.route",
-        "peekOfCode": "router = APIRouter(prefix=\"/car\", tags=[\"cars\"])\n@router.post(\"/\")\ndef create_car(car: Car, session: Session = Depends(get_session)):\n    session.add(car)\n    session.commit()\n    session.refresh(car)\n    return car\n@router.get(\"/\")\ndef list_cars(session: Session = Depends(get_session)):\n    cars = session.exec(select(Car)).all()",
+        "peekOfCode": "router = APIRouter(prefix=\"/car\", tags=[\"cars\"])\n@router.post(\"/\", response_model=schema.CarOut)\ndef create_car(car: schema.CarCreate, session: Session = Depends(get_session)):\n    db_car = Car(**car.dict())\n    session.add(db_car)\n    session.commit()\n    session.refresh(db_car)\n    return db_car\n@router.get(\"/\", response_model=list[schema.CarOut])\ndef list_cars(session: Session = Depends(get_session)):",
         "detail": "app.modules.cars.route",
         "documentation": {}
     },
@@ -881,7 +1019,7 @@
         "kind": 6,
         "importPath": "app.modules.cars.schema",
         "description": "app.modules.cars.schema",
-        "peekOfCode": "class CarBase(BaseModel):\n    model: str\n    license: str\n    driver: str\n    manufacture: int | None = None\n    km: int | None = None\n    fuel: str | None = None\n    strength: str | None = None\n    capacity: str | None = None\n    versatility: str | None = None",
+        "peekOfCode": "class CarBase(BaseModel):\n    model: str\n    license: str\n    driver_id: uuid.UUID\n    manufacture: int | None = None\n    km: int | None = None\n    fuel: str | None = None\n    strength: str | None = None\n    capacity: str | None = None\n    versatility: str | None = None",
         "detail": "app.modules.cars.schema",
         "documentation": {}
     },
@@ -890,7 +1028,16 @@
         "kind": 6,
         "importPath": "app.modules.cars.schema",
         "description": "app.modules.cars.schema",
-        "peekOfCode": "class CarCreate(CarBase):\n    pass\nclass CarOut(CarBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
+        "peekOfCode": "class CarCreate(CarBase):\n    pass\nclass UserNested(BaseModel):\n    id: uuid.UUID\n    name: str\n    email: str\n    class Config:\n        from_attributes = True\nclass CarOut(CarBase):\n    id: uuid.UUID",
+        "detail": "app.modules.cars.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserNested",
+        "kind": 6,
+        "importPath": "app.modules.cars.schema",
+        "description": "app.modules.cars.schema",
+        "peekOfCode": "class UserNested(BaseModel):\n    id: uuid.UUID\n    name: str\n    email: str\n    class Config:\n        from_attributes = True\nclass CarOut(CarBase):\n    id: uuid.UUID\n    driver: Optional[UserNested]\n    class Config:",
         "detail": "app.modules.cars.schema",
         "documentation": {}
     },
@@ -899,7 +1046,7 @@
         "kind": 6,
         "importPath": "app.modules.cars.schema",
         "description": "app.modules.cars.schema",
-        "peekOfCode": "class CarOut(CarBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
+        "peekOfCode": "class CarOut(CarBase):\n    id: uuid.UUID\n    driver: Optional[UserNested]\n    class Config:\n        from_attributes = True",
         "detail": "app.modules.cars.schema",
         "documentation": {}
     },
@@ -1016,7 +1163,7 @@
         "kind": 2,
         "importPath": "app.modules.users.route",
         "description": "app.modules.users.route",
-        "peekOfCode": "def create_user(user: User, session: Session = Depends(get_session)):\n    session.add(user)\n    session.commit()\n    session.refresh(user)\n    return user\n@router.get(\"/\")\ndef list_users(session: Session = Depends(get_session)):\n    users = session.exec(select(User)).all()\n    return users",
+        "peekOfCode": "def create_user(user: schema.UserCreate, session: Session = Depends(get_session)):\n    db_user = User(**user.dict())\n    session.add(db_user)\n    session.commit()\n    session.refresh(db_user)\n    return db_user\n@router.get(\"/\", response_model=list[schema.UserOut])\ndef list_users(session: Session = Depends(get_session)):\n    statement = select(User).options(selectinload(User.cars))\n    users = session.exec(statement).all()",
         "detail": "app.modules.users.route",
         "documentation": {}
     },
@@ -1025,7 +1172,16 @@
         "kind": 2,
         "importPath": "app.modules.users.route",
         "description": "app.modules.users.route",
-        "peekOfCode": "def list_users(session: Session = Depends(get_session)):\n    users = session.exec(select(User)).all()\n    return users",
+        "peekOfCode": "def list_users(session: Session = Depends(get_session)):\n    statement = select(User).options(selectinload(User.cars))\n    users = session.exec(statement).all()\n    return users\n@router.get(\"/{id}\", response_model=schema.UserOut)\ndef get_user(id: str, session: Session = Depends(get_session)):\n    statement = (\n        select(User)\n        .where(User.id == id)\n        .options(selectinload(User.cars))",
+        "detail": "app.modules.users.route",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "app.modules.users.route",
+        "description": "app.modules.users.route",
+        "peekOfCode": "def get_user(id: str, session: Session = Depends(get_session)):\n    statement = (\n        select(User)\n        .where(User.id == id)\n        .options(selectinload(User.cars))\n    )\n    user = session.exec(statement).first()\n    if not user:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    return user",
         "detail": "app.modules.users.route",
         "documentation": {}
     },
@@ -1034,7 +1190,7 @@
         "kind": 5,
         "importPath": "app.modules.users.route",
         "description": "app.modules.users.route",
-        "peekOfCode": "router = APIRouter(prefix=\"/user\", tags=[\"users\"])\n@router.post(\"/\")\ndef create_user(user: User, session: Session = Depends(get_session)):\n    session.add(user)\n    session.commit()\n    session.refresh(user)\n    return user\n@router.get(\"/\")\ndef list_users(session: Session = Depends(get_session)):\n    users = session.exec(select(User)).all()",
+        "peekOfCode": "router = APIRouter(prefix=\"/user\", tags=[\"users\"])\n@router.post(\"/\", response_model=schema.UserOut)\ndef create_user(user: schema.UserCreate, session: Session = Depends(get_session)):\n    db_user = User(**user.dict())\n    session.add(db_user)\n    session.commit()\n    session.refresh(db_user)\n    return db_user\n@router.get(\"/\", response_model=list[schema.UserOut])\ndef list_users(session: Session = Depends(get_session)):",
         "detail": "app.modules.users.route",
         "documentation": {}
     },
@@ -1052,7 +1208,16 @@
         "kind": 6,
         "importPath": "app.modules.users.schema",
         "description": "app.modules.users.schema",
-        "peekOfCode": "class UserCreate(UserBase):\n    pass\nclass UserOut(UserBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
+        "peekOfCode": "class UserCreate(UserBase):\n    pass\nclass CarNested(BaseModel):\n    id: uuid.UUID\n    model: str\n    license: str\n    class Config:\n        from_attributes = True\nclass UserOut(UserBase):\n    id: uuid.UUID",
+        "detail": "app.modules.users.schema",
+        "documentation": {}
+    },
+    {
+        "label": "CarNested",
+        "kind": 6,
+        "importPath": "app.modules.users.schema",
+        "description": "app.modules.users.schema",
+        "peekOfCode": "class CarNested(BaseModel):\n    id: uuid.UUID\n    model: str\n    license: str\n    class Config:\n        from_attributes = True\nclass UserOut(UserBase):\n    id: uuid.UUID\n    cars: List[CarNested] = []\n    class Config:",
         "detail": "app.modules.users.schema",
         "documentation": {}
     },
@@ -1061,7 +1226,7 @@
         "kind": 6,
         "importPath": "app.modules.users.schema",
         "description": "app.modules.users.schema",
-        "peekOfCode": "class UserOut(UserBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
+        "peekOfCode": "class UserOut(UserBase):\n    id: uuid.UUID\n    cars: List[CarNested] = []\n    class Config:\n        from_attributes = True",
         "detail": "app.modules.users.schema",
         "documentation": {}
     },

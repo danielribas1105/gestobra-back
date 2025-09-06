@@ -1,3 +1,4 @@
+from typing import List
 import uuid
 from pydantic import BaseModel
 
@@ -16,9 +17,17 @@ class UserBase(BaseModel):
 class UserCreate(UserBase):
     pass
 
+class CarNested(BaseModel):
+    id: uuid.UUID
+    model: str
+    license: str
+
+    class Config:
+        from_attributes = True
 
 class UserOut(UserBase):
     id: uuid.UUID
+    cars: List[CarNested] = []
 
     class Config:
         from_attributes = True
