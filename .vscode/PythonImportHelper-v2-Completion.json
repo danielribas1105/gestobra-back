@@ -275,6 +275,15 @@
     },
     {
         "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -704,6 +713,14 @@
         "description": "app.modules.works.model",
         "isExtraImport": true,
         "detail": "app.modules.works.model",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
         "documentation": {}
     },
     {
@@ -1170,7 +1187,7 @@
         "kind": 2,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "def on_startup():\n    SQLModel.metadata.create_all(engine)\n@app.get(\"/\")\ndef home():\n   return {\"project\": \"GestObra\"}",
+        "peekOfCode": "def on_startup():\n    SQLModel.metadata.create_all(engine)\n@app.get(\"/\")\ndef home():\n   return {\"project\": \"GestObra\"}\n@app.get(\"/status\")\ndef get_status():\n    return {\n        \"status\": \"online\",\n        \"timestamp\": datetime.datetime.now().strftime(\"%d/%m/%Y %H:%M:%S\")",
         "detail": "app.main",
         "documentation": {}
     },
@@ -1179,7 +1196,16 @@
         "kind": 2,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "def home():\n   return {\"project\": \"GestObra\"}",
+        "peekOfCode": "def home():\n   return {\"project\": \"GestObra\"}\n@app.get(\"/status\")\ndef get_status():\n    return {\n        \"status\": \"online\",\n        \"timestamp\": datetime.datetime.now().strftime(\"%d/%m/%Y %H:%M:%S\")\n    }",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_status",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def get_status():\n    return {\n        \"status\": \"online\",\n        \"timestamp\": datetime.datetime.now().strftime(\"%d/%m/%Y %H:%M:%S\")\n    }",
         "detail": "app.main",
         "documentation": {}
     },
@@ -1188,7 +1214,7 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "app = FastAPI()\napp.include_router(router)\n@app.on_event(\"startup\")\ndef on_startup():\n    SQLModel.metadata.create_all(engine)\n@app.get(\"/\")\ndef home():\n   return {\"project\": \"GestObra\"}",
+        "peekOfCode": "app = FastAPI()\napp.include_router(router)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:3000\"],  # ou [\"*\"] durante dev\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n@app.on_event(\"startup\")",
         "detail": "app.main",
         "documentation": {}
     },
