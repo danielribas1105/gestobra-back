@@ -22,3 +22,4 @@ class User(SQLModel, table=True):
     password_hash: str = Field()
 
     cars: List["Car"] = Relationship(back_populates="driver")
+    jobs: List["Job"] = Relationship(back_populates="user")

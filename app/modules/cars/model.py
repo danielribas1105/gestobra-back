@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import Optional
+from typing import List, Optional
 import uuid
 from sqlmodel import Relationship, SQLModel, Field
 from sqlalchemy import text
@@ -28,3 +28,4 @@ class Car(SQLModel, table=True):
     image_url: str | None = Field(default=None)
     
     driver: "User" = Relationship(back_populates="cars")
+    jobs: List["Job"] = Relationship(back_populates="car")

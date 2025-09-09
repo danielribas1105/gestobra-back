@@ -105,6 +105,14 @@
         "documentation": {}
     },
     {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "Session",
         "importPath": "sqlmodel",
         "description": "sqlmodel",
@@ -177,6 +185,14 @@
         "documentation": {}
     },
     {
+        "label": "Relationship",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
         "label": "SQLModel",
         "importPath": "sqlmodel",
         "description": "sqlmodel",
@@ -234,6 +250,54 @@
     },
     {
         "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Relationship",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Relationship",
         "importPath": "sqlmodel",
         "description": "sqlmodel",
         "isExtraImport": true,
@@ -339,6 +403,30 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -403,6 +491,14 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -412,6 +508,38 @@
     },
     {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -556,6 +684,30 @@
         "documentation": {}
     },
     {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -577,6 +729,14 @@
         "description": "fastapi.security",
         "isExtraImport": true,
         "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "fastapi_async_sqlalchemy",
+        "description": "fastapi_async_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "fastapi_async_sqlalchemy",
         "documentation": {}
     },
     {
@@ -724,6 +884,14 @@
         "documentation": {}
     },
     {
+        "label": "selectinload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -737,6 +905,30 @@
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
         "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
         "documentation": {}
     },
     {
@@ -817,6 +1009,22 @@
         "description": "app.modules.jobs.model",
         "isExtraImport": true,
         "detail": "app.modules.jobs.model",
+        "documentation": {}
+    },
+    {
+        "label": "Statement",
+        "importPath": "app.modules.statements.model",
+        "description": "app.modules.statements.model",
+        "isExtraImport": true,
+        "detail": "app.modules.statements.model",
+        "documentation": {}
+    },
+    {
+        "label": "schema",
+        "importPath": "app.modules.statements",
+        "description": "app.modules.statements",
+        "isExtraImport": true,
+        "detail": "app.modules.statements",
         "documentation": {}
     },
     {
@@ -1073,7 +1281,7 @@
         "kind": 6,
         "importPath": "app.modules.jobs.model",
         "description": "app.modules.jobs.model",
-        "peekOfCode": "class Job(SQLModel, table=True):\n    __tablename__ = \"jobs\"\n    id: uuid.UUID = Field(\n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    created_at: str = Field()\n    updated_at: str = Field()\n    origin: str = Field()",
+        "peekOfCode": "class Job(SQLModel, table=True):\n    __tablename__ = \"jobs\"\n    id: uuid.UUID = Field(\n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    origin: Optional[uuid.UUID] = Field(\n        foreign_key=\"works.id\", nullable=False, index=True\n    )",
         "detail": "app.modules.jobs.model",
         "documentation": {}
     },
@@ -1147,6 +1355,96 @@
         "description": "app.modules.jobs.service",
         "peekOfCode": "def list_jobs(db: Session):\n    return db.query(model.Job).all()",
         "detail": "app.modules.jobs.service",
+        "documentation": {}
+    },
+    {
+        "label": "Statement",
+        "kind": 6,
+        "importPath": "app.modules.statements.model",
+        "description": "app.modules.statements.model",
+        "peekOfCode": "class Statement(SQLModel, table=True):\n    __tablename__ = \"statements\"\n    id: uuid.UUID = Field(\n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    created_at: datetime = Field(default_factory=datetime.utcnow, nullable=False)\n    status: str = Field()\n    job: Optional[\"Job\"] = Relationship(back_populates=\"statement\")",
+        "detail": "app.modules.statements.model",
+        "documentation": {}
+    },
+    {
+        "label": "create_statement",
+        "kind": 2,
+        "importPath": "app.modules.statements.route",
+        "description": "app.modules.statements.route",
+        "peekOfCode": "def create_statement(statement: schema.StatementCreate, session: Session = Depends(get_session)):\n    db_statement = Statement(**statement.dict())\n    session.add(db_statement)\n    session.commit()\n    session.refresh(db_statement)\n    return db_statement\n@router.get(\"/\", response_model=list[schema.StatementOut])\ndef list_statements(session: Session = Depends(get_session)):\n    statement = select(Statement)\n    statements = session.exec(statement).all()",
+        "detail": "app.modules.statements.route",
+        "documentation": {}
+    },
+    {
+        "label": "list_statements",
+        "kind": 2,
+        "importPath": "app.modules.statements.route",
+        "description": "app.modules.statements.route",
+        "peekOfCode": "def list_statements(session: Session = Depends(get_session)):\n    statement = select(Statement)\n    statements = session.exec(statement).all()\n    return statements\n@router.get(\"/{id}\", response_model=schema.StatementOut)\ndef get_statement(id: str, session: Session = Depends(get_session)):\n    statement = (\n        select(Statement)\n        .where(Statement.id == id)\n    )",
+        "detail": "app.modules.statements.route",
+        "documentation": {}
+    },
+    {
+        "label": "get_statement",
+        "kind": 2,
+        "importPath": "app.modules.statements.route",
+        "description": "app.modules.statements.route",
+        "peekOfCode": "def get_statement(id: str, session: Session = Depends(get_session)):\n    statement = (\n        select(Statement)\n        .where(Statement.id == id)\n    )\n    statement = session.exec(statement).first()\n    if not statement:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    return statement",
+        "detail": "app.modules.statements.route",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.modules.statements.route",
+        "description": "app.modules.statements.route",
+        "peekOfCode": "router = APIRouter(prefix=\"/statement\", tags=[\"statements\"])\n@router.post(\"/\", response_model=schema.StatementOut)\ndef create_statement(statement: schema.StatementCreate, session: Session = Depends(get_session)):\n    db_statement = Statement(**statement.dict())\n    session.add(db_statement)\n    session.commit()\n    session.refresh(db_statement)\n    return db_statement\n@router.get(\"/\", response_model=list[schema.StatementOut])\ndef list_statements(session: Session = Depends(get_session)):",
+        "detail": "app.modules.statements.route",
+        "documentation": {}
+    },
+    {
+        "label": "StatementBase",
+        "kind": 6,
+        "importPath": "app.modules.statements.schema",
+        "description": "app.modules.statements.schema",
+        "peekOfCode": "class StatementBase(BaseModel):\n    name: str\n    created_at: str\n    active: bool\nclass StatementCreate(StatementBase):\n    pass\nclass StatementOut(StatementBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
+        "detail": "app.modules.statements.schema",
+        "documentation": {}
+    },
+    {
+        "label": "StatementCreate",
+        "kind": 6,
+        "importPath": "app.modules.statements.schema",
+        "description": "app.modules.statements.schema",
+        "peekOfCode": "class StatementCreate(StatementBase):\n    pass\nclass StatementOut(StatementBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
+        "detail": "app.modules.statements.schema",
+        "documentation": {}
+    },
+    {
+        "label": "StatementOut",
+        "kind": 6,
+        "importPath": "app.modules.statements.schema",
+        "description": "app.modules.statements.schema",
+        "peekOfCode": "class StatementOut(StatementBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
+        "detail": "app.modules.statements.schema",
+        "documentation": {}
+    },
+    {
+        "label": "create_statement",
+        "kind": 2,
+        "importPath": "app.modules.statements.service",
+        "description": "app.modules.statements.service",
+        "peekOfCode": "def create_statement(db: Session, statement: schema.StatementCreate):\n    db_statement = model.Statement(**statement.dict())\n    db.add(db_statement)\n    db.commit()\n    db.refresh(db_statement)\n    return db_statement\ndef list_statements(db: Session):\n    return db.query(model.Statement).all()\nasync def get_statement_by_id(id: uuid.UUID | str | None):\n    return await db.session.get(model.Statement, id)",
+        "detail": "app.modules.statements.service",
+        "documentation": {}
+    },
+    {
+        "label": "list_statements",
+        "kind": 2,
+        "importPath": "app.modules.statements.service",
+        "description": "app.modules.statements.service",
+        "peekOfCode": "def list_statements(db: Session):\n    return db.query(model.Statement).all()\nasync def get_statement_by_id(id: uuid.UUID | str | None):\n    return await db.session.get(model.Statement, id)",
+        "detail": "app.modules.statements.service",
         "documentation": {}
     },
     {
@@ -1253,7 +1551,7 @@
         "kind": 6,
         "importPath": "app.modules.works.model",
         "description": "app.modules.works.model",
-        "peekOfCode": "class Work(SQLModel, table=True):\n   __tablename__ = \"works\"\n   id: uuid.UUID = Field(\n      default_factory=uuid.uuid4,\n      primary_key=True,\n      sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n   )\n   name: str = Field(index=True)\n   description: str | None = Field(default=None)\n   address: str | None = Field(default=None)",
+        "peekOfCode": "class Work(SQLModel, table=True):\n    __tablename__ = \"works\"\n    id: uuid.UUID = Field(\n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    name: str = Field(index=True)\n    description: str | None = Field(default=None)\n    address: str | None = Field(default=None)",
         "detail": "app.modules.works.model",
         "documentation": {}
     },
@@ -1415,7 +1713,7 @@
         "kind": 5,
         "importPath": "app.routes",
         "description": "app.routes",
-        "peekOfCode": "router = APIRouter()\nrouter.include_router(work.router)\nrouter.include_router(user.router)\nrouter.include_router(car.router)\nrouter.include_router(job.router)\n\"\"\" router = APIRouter()\nrouter.include_router(work.router, tags=[\"work\"])\ndef get_db():\n    db = SessionLocal()\n    try:",
+        "peekOfCode": "router = APIRouter()\nrouter.include_router(work.router)\nrouter.include_router(user.router)\nrouter.include_router(car.router)\nrouter.include_router(job.router)\nrouter.include_router(statement.router)\n\"\"\" router = APIRouter()\nrouter.include_router(work.router, tags=[\"work\"])\ndef get_db():\n    db = SessionLocal()",
         "detail": "app.routes",
         "documentation": {}
     },
