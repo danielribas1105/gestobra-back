@@ -17,7 +17,7 @@ def create_user(user: schema.UserCreate, session: Session = Depends(get_session)
 
 @router.get("/", response_model=list[schema.UserOut])
 def list_users(session: Session = Depends(get_session)):
-    statement = select(User).options(selectinload(User.cars))
+    statement = select(User)
     users = session.exec(statement).all()
     return users
 
@@ -26,7 +26,6 @@ def get_user(id: str, session: Session = Depends(get_session)):
     statement = (
         select(User)
         .where(User.id == id)
-        .options(selectinload(User.cars))
     )
     user = session.exec(statement).first()
 

@@ -812,6 +812,54 @@
         "documentation": {}
     },
     {
+        "label": "Job",
+        "importPath": "app.modules.jobs.model",
+        "description": "app.modules.jobs.model",
+        "isExtraImport": true,
+        "detail": "app.modules.jobs.model",
+        "documentation": {}
+    },
+    {
+        "label": "Job",
+        "importPath": "app.modules.jobs.model",
+        "description": "app.modules.jobs.model",
+        "isExtraImport": true,
+        "detail": "app.modules.jobs.model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.modules.users.model",
+        "description": "app.modules.users.model",
+        "isExtraImport": true,
+        "detail": "app.modules.users.model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.modules.users.model",
+        "description": "app.modules.users.model",
+        "isExtraImport": true,
+        "detail": "app.modules.users.model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.modules.users.model",
+        "description": "app.modules.users.model",
+        "isExtraImport": true,
+        "detail": "app.modules.users.model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.modules.users.model",
+        "description": "app.modules.users.model",
+        "isExtraImport": true,
+        "detail": "app.modules.users.model",
+        "documentation": {}
+    },
+    {
         "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -988,30 +1036,6 @@
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "app.modules.users.model",
-        "description": "app.modules.users.model",
-        "isExtraImport": true,
-        "detail": "app.modules.users.model",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.modules.users.model",
-        "description": "app.modules.users.model",
-        "isExtraImport": true,
-        "detail": "app.modules.users.model",
-        "documentation": {}
-    },
-    {
-        "label": "Job",
-        "importPath": "app.modules.jobs.model",
-        "description": "app.modules.jobs.model",
-        "isExtraImport": true,
-        "detail": "app.modules.jobs.model",
-        "documentation": {}
-    },
-    {
         "label": "Statement",
         "importPath": "app.modules.statements.model",
         "description": "app.modules.statements.model",
@@ -1173,7 +1197,7 @@
         "kind": 6,
         "importPath": "app.modules.cars.model",
         "description": "app.modules.cars.model",
-        "peekOfCode": "class Car(SQLModel, table=True):\n    __tablename__ = \"cars\"\n    id: uuid.UUID = Field(\n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    model: str = Field()\n    license: str = Field(sa_column_kwargs={\"unique\": True, \"index\": True})\n    driver_id: Optional[uuid.UUID] = Field(",
+        "peekOfCode": "class Car(SQLModel, table=True):\n    __tablename__ = \"cars\"\n    id: uuid.UUID = Field(\n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    model: str = Field()\n    license: str = Field(sa_column_kwargs={\"unique\": True, \"index\": True})\n    driver_id: uuid.UUID = Field(foreign_key=\"users.id\", nullable=False, index=True) ",
         "detail": "app.modules.cars.model",
         "documentation": {}
     },
@@ -1281,7 +1305,7 @@
         "kind": 6,
         "importPath": "app.modules.jobs.model",
         "description": "app.modules.jobs.model",
-        "peekOfCode": "class Job(SQLModel, table=True):\n    __tablename__ = \"jobs\"\n    id: uuid.UUID = Field(\n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    origin: Optional[uuid.UUID] = Field(\n        foreign_key=\"works.id\", nullable=False, index=True\n    )",
+        "peekOfCode": "class Job(SQLModel, table=True):\n    __tablename__ = \"jobs\"\n    id: uuid.UUID = Field(\n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    origin: uuid.UUID = Field(foreign_key=\"works.id\", nullable=False, index=True)\n    destiny: uuid.UUID = Field(foreign_key=\"works.id\", nullable=False, index=True)\n    car_id: uuid.UUID = Field(foreign_key=\"cars.id\", nullable=False, index=True)",
         "detail": "app.modules.jobs.model",
         "documentation": {}
     },
@@ -1461,7 +1485,7 @@
         "kind": 2,
         "importPath": "app.modules.users.route",
         "description": "app.modules.users.route",
-        "peekOfCode": "def create_user(user: schema.UserCreate, session: Session = Depends(get_session)):\n    db_user = User(**user.dict())\n    session.add(db_user)\n    session.commit()\n    session.refresh(db_user)\n    return db_user\n@router.get(\"/\", response_model=list[schema.UserOut])\ndef list_users(session: Session = Depends(get_session)):\n    statement = select(User).options(selectinload(User.cars))\n    users = session.exec(statement).all()",
+        "peekOfCode": "def create_user(user: schema.UserCreate, session: Session = Depends(get_session)):\n    db_user = User(**user.dict())\n    session.add(db_user)\n    session.commit()\n    session.refresh(db_user)\n    return db_user\n@router.get(\"/\", response_model=list[schema.UserOut])\ndef list_users(session: Session = Depends(get_session)):\n    statement = select(User)\n    users = session.exec(statement).all()",
         "detail": "app.modules.users.route",
         "documentation": {}
     },
@@ -1470,7 +1494,7 @@
         "kind": 2,
         "importPath": "app.modules.users.route",
         "description": "app.modules.users.route",
-        "peekOfCode": "def list_users(session: Session = Depends(get_session)):\n    statement = select(User).options(selectinload(User.cars))\n    users = session.exec(statement).all()\n    return users\n@router.get(\"/{id}\", response_model=schema.UserOut)\ndef get_user(id: str, session: Session = Depends(get_session)):\n    statement = (\n        select(User)\n        .where(User.id == id)\n        .options(selectinload(User.cars))",
+        "peekOfCode": "def list_users(session: Session = Depends(get_session)):\n    statement = select(User)\n    users = session.exec(statement).all()\n    return users\n@router.get(\"/{id}\", response_model=schema.UserOut)\ndef get_user(id: str, session: Session = Depends(get_session)):\n    statement = (\n        select(User)\n        .where(User.id == id)\n    )",
         "detail": "app.modules.users.route",
         "documentation": {}
     },
@@ -1479,7 +1503,7 @@
         "kind": 2,
         "importPath": "app.modules.users.route",
         "description": "app.modules.users.route",
-        "peekOfCode": "def get_user(id: str, session: Session = Depends(get_session)):\n    statement = (\n        select(User)\n        .where(User.id == id)\n        .options(selectinload(User.cars))\n    )\n    user = session.exec(statement).first()\n    if not user:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    return user",
+        "peekOfCode": "def get_user(id: str, session: Session = Depends(get_session)):\n    statement = (\n        select(User)\n        .where(User.id == id)\n    )\n    user = session.exec(statement).first()\n    if not user:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    return user",
         "detail": "app.modules.users.route",
         "documentation": {}
     },
@@ -1506,16 +1530,7 @@
         "kind": 6,
         "importPath": "app.modules.users.schema",
         "description": "app.modules.users.schema",
-        "peekOfCode": "class UserCreate(UserBase):\n    pass\nclass CarNested(BaseModel):\n    id: uuid.UUID\n    model: str\n    license: str\n    class Config:\n        from_attributes = True\nclass UserOut(UserBase):\n    id: uuid.UUID",
-        "detail": "app.modules.users.schema",
-        "documentation": {}
-    },
-    {
-        "label": "CarNested",
-        "kind": 6,
-        "importPath": "app.modules.users.schema",
-        "description": "app.modules.users.schema",
-        "peekOfCode": "class CarNested(BaseModel):\n    id: uuid.UUID\n    model: str\n    license: str\n    class Config:\n        from_attributes = True\nclass UserOut(UserBase):\n    id: uuid.UUID\n    cars: List[CarNested] = []\n    class Config:",
+        "peekOfCode": "class UserCreate(UserBase):\n    pass\nclass UserOut(UserBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
         "detail": "app.modules.users.schema",
         "documentation": {}
     },
@@ -1524,7 +1539,7 @@
         "kind": 6,
         "importPath": "app.modules.users.schema",
         "description": "app.modules.users.schema",
-        "peekOfCode": "class UserOut(UserBase):\n    id: uuid.UUID\n    cars: List[CarNested] = []\n    class Config:\n        from_attributes = True",
+        "peekOfCode": "class UserOut(UserBase):\n    id: uuid.UUID\n    class Config:\n        from_attributes = True",
         "detail": "app.modules.users.schema",
         "documentation": {}
     },

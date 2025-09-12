@@ -4,6 +4,9 @@ import uuid
 from sqlmodel import Relationship, SQLModel, Field
 from sqlalchemy import text
 
+from app.modules.jobs.model import Job
+from app.modules.users.model import User
+
 class Car(SQLModel, table=True):
     __tablename__ = "cars"
 
@@ -15,9 +18,7 @@ class Car(SQLModel, table=True):
     
     model: str = Field()
     license: str = Field(sa_column_kwargs={"unique": True, "index": True})
-    driver_id: Optional[uuid.UUID] = Field(
-        foreign_key="users.id", nullable=False, index=True
-    ) 
+    driver_id: uuid.UUID = Field(foreign_key="users.id", nullable=False, index=True) 
     manufacture: int | None = Field(default=None)
     km: int | None = Field(default=None)
     fuel: str | None = Field(default=None)
@@ -27,5 +28,6 @@ class Car(SQLModel, table=True):
     active: bool = Field(default=True, sa_column_kwargs={"server_default": "true"})
     image_url: str | None = Field(default=None)
     
-    driver: "User" = Relationship(back_populates="cars")
-    jobs: List["Job"] = Relationship(back_populates="car")
+    """ jobs: List[Job] = Relationship(back_populates="car") """
+    # relação 1:1 com User
+    driver: User = Relationship()
