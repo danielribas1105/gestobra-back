@@ -1,21 +1,51 @@
-import uuid
-from datetime import datetime
+from typing import Annotated
 
-from sqlalchemy import Column, DateTime, text
-from sqlmodel import Field, SQLModel
+from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi.security import OAuth2PasswordRequestForm
+from modules.auth.schema import RefreshTokenBody, Token
+from modules.auth.service import (
+    authenticate_user,
+    consume_refresh_token,
+    create_access_token,
+    create_refresh_token,
+)
+
+router = APIRouter(prefix="/auth")
 
 
-class UserSession(SQLModel, table=True):
-    __tablename__ = "user_session" # type: ignore
+@router.post("/token")
+async def login_for_access_token(
+    form_data: Annotated[OAuth2PasswordRequestForm, Depends()],
+) -> Token:
+    print("trying to login")
+    user = await authenticate_user(form_data.username, form_data.password)
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Incorrect username or password",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
 
-    id: uuid.UUID = Field(  
-        default_factory=uuid.uuid4,
-        primary_key=True,
-        sa_column_kwargs={"server_default": text("gen_random_uuid()")},
+    access_token, expire = create_access_token(data={"sub": str(user.id)})
+    refresh_token, _ = await create_refresh_token(
+        user_id=str(user.id)
     )
 
-    user_id: uuid.UUID | None = Field(default=None, foreign_key="user.id")
+    return Token(
+        access_token=access_token,
+        token_type="bearer",
+        expire_at=expire,
+        refresh_token=refresh_token,
+    )
 
-    expires_at: datetime = Field(
-        sa_column=Column(DateTime(timezone=True), nullable=False),
+
+@router.post("/refresh")
+async def refresh_token(body: RefreshTokenBody):
+    data = await consume_refresh_token(body.refresh_token)
+
+    return Token(
+        access_token=data["access_token"],
+        token_type="bearer",
+        expire_at=data["expire"],
+        refresh_token=data["refresh_token"],
     )
