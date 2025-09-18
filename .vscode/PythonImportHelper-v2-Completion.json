@@ -49,30 +49,6 @@
         "documentation": {}
     },
     {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "text",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -114,22 +90,6 @@
     },
     {
         "label": "Session",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "SQLModel",
         "importPath": "sqlmodel",
         "description": "sqlmodel",
         "isExtraImport": true,
@@ -379,14 +339,6 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
         "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
@@ -419,67 +371,11 @@
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "floor",
-        "importPath": "math",
-        "description": "math",
-        "isExtraImport": true,
-        "detail": "math",
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -563,20 +459,35 @@
         "documentation": {}
     },
     {
-        "label": "jwt",
-        "kind": 6,
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "importPath": "jwt",
-        "description": "jwt",
-        "detail": "jwt",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "config",
-        "importPath": "config",
-        "description": "config",
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "config",
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -724,11 +635,156 @@
         "documentation": {}
     },
     {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
         "label": "OAuth2PasswordBearer",
         "importPath": "fastapi.security",
         "description": "fastapi.security",
         "isExtraImport": true,
         "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshTokenBody",
+        "importPath": "modules.auth.schema",
+        "description": "modules.auth.schema",
+        "isExtraImport": true,
+        "detail": "modules.auth.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "modules.auth.schema",
+        "description": "modules.auth.schema",
+        "isExtraImport": true,
+        "detail": "modules.auth.schema",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "importPath": "modules.auth.schema",
+        "description": "modules.auth.schema",
+        "isExtraImport": true,
+        "detail": "modules.auth.schema",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_user",
+        "importPath": "modules.auth.service",
+        "description": "modules.auth.service",
+        "isExtraImport": true,
+        "detail": "modules.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "consume_refresh_token",
+        "importPath": "modules.auth.service",
+        "description": "modules.auth.service",
+        "isExtraImport": true,
+        "detail": "modules.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "modules.auth.service",
+        "description": "modules.auth.service",
+        "isExtraImport": true,
+        "detail": "modules.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "create_refresh_token",
+        "importPath": "modules.auth.service",
+        "description": "modules.auth.service",
+        "isExtraImport": true,
+        "detail": "modules.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "floor",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
         "documentation": {}
     },
     {
@@ -761,14 +817,6 @@
         "description": "modules.auth.model",
         "isExtraImport": true,
         "detail": "modules.auth.model",
-        "documentation": {}
-    },
-    {
-        "label": "TokenData",
-        "importPath": "modules.auth.schema",
-        "description": "modules.auth.schema",
-        "isExtraImport": true,
-        "detail": "modules.auth.schema",
         "documentation": {}
     },
     {
@@ -1112,11 +1160,11 @@
         "documentation": {}
     },
     {
-        "label": "UserSession",
-        "kind": 6,
+        "label": "router",
+        "kind": 5,
         "importPath": "app.modules.auth.route",
         "description": "app.modules.auth.route",
-        "peekOfCode": "class UserSession(SQLModel, table=True):\n    __tablename__ = \"user_session\" # type: ignore\n    id: uuid.UUID = Field(  \n        default_factory=uuid.uuid4,\n        primary_key=True,\n        sa_column_kwargs={\"server_default\": text(\"gen_random_uuid()\")},\n    )\n    user_id: uuid.UUID | None = Field(default=None, foreign_key=\"user.id\")\n    expires_at: datetime = Field(\n        sa_column=Column(DateTime(timezone=True), nullable=False),",
+        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"auths\"])\n@router.post(\"/token\")\nasync def login_for_access_token(\n    form_data: Annotated[OAuth2PasswordRequestForm, Depends()],\n) -> Token:\n    print(\"trying to login\")\n    user = await authenticate_user(form_data.username, form_data.password)\n    if not user:\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,",
         "detail": "app.modules.auth.route",
         "documentation": {}
     },
@@ -1179,7 +1227,7 @@
         "kind": 5,
         "importPath": "app.modules.auth.service",
         "description": "app.modules.auth.service",
-        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/api/v1/auth/token\")\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    # TODO: Add salt\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: timedelta | None = None):\n    to_encode = data.copy()\n    if expires_delta:",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/auth/token\")\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    # TODO: Add salt\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: timedelta | None = None):\n    to_encode = data.copy()\n    if expires_delta:",
         "detail": "app.modules.auth.service",
         "documentation": {}
     },
@@ -1728,7 +1776,7 @@
         "kind": 5,
         "importPath": "app.routes",
         "description": "app.routes",
-        "peekOfCode": "router = APIRouter()\nrouter.include_router(work.router)\nrouter.include_router(user.router)\nrouter.include_router(car.router)\nrouter.include_router(job.router)\nrouter.include_router(statement.router)\n\"\"\" router = APIRouter()\nrouter.include_router(work.router, tags=[\"work\"])\ndef get_db():\n    db = SessionLocal()",
+        "peekOfCode": "router = APIRouter()\nrouter.include_router(auth.router)\nrouter.include_router(work.router)\nrouter.include_router(user.router)\nrouter.include_router(car.router)\nrouter.include_router(job.router)\nrouter.include_router(statement.router)\n\"\"\" router = APIRouter()\nrouter.include_router(work.router, tags=[\"work\"])\ndef get_db():",
         "detail": "app.routes",
         "documentation": {}
     },

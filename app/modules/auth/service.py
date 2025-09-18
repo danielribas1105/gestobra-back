@@ -18,7 +18,7 @@ ALGORITHM: str = config["ALGORITHM"]
 ACCESS_TOKEN_EXPIRE_MINUTES: int = int(config["ACCESS_TOKEN_EXPIRE_MINUTES"])
 REFRESH_TOKEN_EXPIRE_MINUTES: int = int(config["REFRESH_TOKEN_EXPIRE_MINUTES"])
 
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/v1/auth/token")
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/token")
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 

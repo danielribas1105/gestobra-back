@@ -5,3 +5,6 @@ sqlmodel
 fastapi-async-sqlalchemy
 asyncpg
 python-dotenv
+jwt
+passlib
+passlib[bcrypt]

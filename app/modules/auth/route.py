@@ -10,7 +10,7 @@ from modules.auth.service import (
     create_refresh_token,
 )
 
-router = APIRouter(prefix="/auth")
+router = APIRouter(prefix="/auth", tags=["auths"])
 
 
 @router.post("/token")
