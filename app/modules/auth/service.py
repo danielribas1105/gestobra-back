@@ -3,8 +3,8 @@ from math import floor
 from typing import Annotated
 from uuid import UUID
 
+from app import config
 import jwt
-from config import config
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from fastapi_async_sqlalchemy import db
