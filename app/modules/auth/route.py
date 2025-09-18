@@ -2,8 +2,8 @@ from typing import Annotated
 
 from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordRequestForm
-from modules.auth.schema import RefreshTokenBody, Token
-from modules.auth.service import (
+from app.modules.auth.schema import RefreshTokenBody, Token
+from app.modules.auth.service import (
     authenticate_user,
     consume_refresh_token,
     create_access_token,

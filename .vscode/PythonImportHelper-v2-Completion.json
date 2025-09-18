@@ -652,58 +652,50 @@
     },
     {
         "label": "RefreshTokenBody",
-        "importPath": "modules.auth.schema",
-        "description": "modules.auth.schema",
+        "importPath": "app.modules.auth.schema",
+        "description": "app.modules.auth.schema",
         "isExtraImport": true,
-        "detail": "modules.auth.schema",
+        "detail": "app.modules.auth.schema",
         "documentation": {}
     },
     {
         "label": "Token",
-        "importPath": "modules.auth.schema",
-        "description": "modules.auth.schema",
+        "importPath": "app.modules.auth.schema",
+        "description": "app.modules.auth.schema",
         "isExtraImport": true,
-        "detail": "modules.auth.schema",
-        "documentation": {}
-    },
-    {
-        "label": "TokenData",
-        "importPath": "modules.auth.schema",
-        "description": "modules.auth.schema",
-        "isExtraImport": true,
-        "detail": "modules.auth.schema",
+        "detail": "app.modules.auth.schema",
         "documentation": {}
     },
     {
         "label": "authenticate_user",
-        "importPath": "modules.auth.service",
-        "description": "modules.auth.service",
+        "importPath": "app.modules.auth.service",
+        "description": "app.modules.auth.service",
         "isExtraImport": true,
-        "detail": "modules.auth.service",
+        "detail": "app.modules.auth.service",
         "documentation": {}
     },
     {
         "label": "consume_refresh_token",
-        "importPath": "modules.auth.service",
-        "description": "modules.auth.service",
+        "importPath": "app.modules.auth.service",
+        "description": "app.modules.auth.service",
         "isExtraImport": true,
-        "detail": "modules.auth.service",
+        "detail": "app.modules.auth.service",
         "documentation": {}
     },
     {
         "label": "create_access_token",
-        "importPath": "modules.auth.service",
-        "description": "modules.auth.service",
+        "importPath": "app.modules.auth.service",
+        "description": "app.modules.auth.service",
         "isExtraImport": true,
-        "detail": "modules.auth.service",
+        "detail": "app.modules.auth.service",
         "documentation": {}
     },
     {
         "label": "create_refresh_token",
-        "importPath": "modules.auth.service",
-        "description": "modules.auth.service",
+        "importPath": "app.modules.auth.service",
+        "description": "app.modules.auth.service",
         "isExtraImport": true,
-        "detail": "modules.auth.service",
+        "detail": "app.modules.auth.service",
         "documentation": {}
     },
     {
@@ -817,6 +809,14 @@
         "description": "modules.auth.model",
         "isExtraImport": true,
         "detail": "modules.auth.model",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "importPath": "modules.auth.schema",
+        "description": "modules.auth.schema",
+        "isExtraImport": true,
+        "detail": "modules.auth.schema",
         "documentation": {}
     },
     {
