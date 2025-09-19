@@ -17,6 +17,14 @@
         "documentation": {}
     },
     {
+        "label": "dotenv_values",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "create_engine",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -459,6 +467,22 @@
         "documentation": {}
     },
     {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -763,20 +787,20 @@
         "documentation": {}
     },
     {
+        "label": "config",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
         "label": "jwt",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "jwt",
         "description": "jwt",
         "detail": "jwt",
-        "documentation": {}
-    },
-    {
-        "label": "config",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
         "documentation": {}
     },
     {
@@ -1691,6 +1715,60 @@
         "documentation": {}
     },
     {
+        "label": "Operation",
+        "kind": 5,
+        "importPath": "app.utils.permissions",
+        "description": "app.utils.permissions",
+        "peekOfCode": "Operation = Literal[\n    \"READ\", \"CREATE\", \"READ-ALL\", \"UPDATE\", \"DELETE\", \"ADD-USER\", \"REMOVE-USER\"\n]\nApplicationRole = Literal[\"admin\", \"user\", \"driver\"]",
+        "detail": "app.utils.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationRole",
+        "kind": 5,
+        "importPath": "app.utils.permissions",
+        "description": "app.utils.permissions",
+        "peekOfCode": "ApplicationRole = Literal[\"admin\", \"user\", \"driver\"]",
+        "detail": "app.utils.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "assert_not_none",
+        "kind": 2,
+        "importPath": "app.utils.typings",
+        "description": "app.utils.typings",
+        "peekOfCode": "def assert_not_none(x: T | None) -> T:\n   assert x is not None\n   return x",
+        "detail": "app.utils.typings",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "app.utils.typings",
+        "description": "app.utils.typings",
+        "peekOfCode": "T = TypeVar(\"T\")\ndef assert_not_none(x: T | None) -> T:\n   assert x is not None\n   return x",
+        "detail": "app.utils.typings",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi_env",
+        "kind": 5,
+        "importPath": "app.config",
+        "description": "app.config",
+        "peekOfCode": "fastapi_env = os.getenv(\"FASTAPI_ENV\", \"dev\")\nconfig = {\n    **dotenv_values(\".env\"),\n    **dotenv_values(f\".env.{fastapi_env}\"),\n    **os.environ,  # override loaded values with environment variables\n}",
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "app.config",
+        "description": "app.config",
+        "peekOfCode": "config = {\n    **dotenv_values(\".env\"),\n    **dotenv_values(f\".env.{fastapi_env}\"),\n    **os.environ,  # override loaded values with environment variables\n}",
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
         "label": "create_user",
         "kind": 2,
         "importPath": "app.crud",
@@ -1776,7 +1854,7 @@
         "kind": 5,
         "importPath": "app.routes",
         "description": "app.routes",
-        "peekOfCode": "router = APIRouter()\nrouter.include_router(auth.router)\nrouter.include_router(work.router)\nrouter.include_router(user.router)\nrouter.include_router(car.router)\nrouter.include_router(job.router)\nrouter.include_router(statement.router)\n\"\"\" router = APIRouter()\nrouter.include_router(work.router, tags=[\"work\"])\ndef get_db():",
+        "peekOfCode": "router = APIRouter()\nrouter.include_router(work.router)\nrouter.include_router(user.router)\nrouter.include_router(car.router)\nrouter.include_router(job.router)\nrouter.include_router(statement.router)\n\"\"\" router = APIRouter()\nrouter.include_router(work.router, tags=[\"work\"])\ndef get_db():\n    db = SessionLocal()",
         "detail": "app.routes",
         "documentation": {}
     },
